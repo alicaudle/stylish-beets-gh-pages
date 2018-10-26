@@ -1,15 +1,21 @@
 html {
+  box-sizing: border-box;
   background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h1, h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
 }
 
 nav a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
 }
 
@@ -18,24 +24,20 @@ nav a:hover {
 }
 
 figcaption {
-  font-family: 'PT Serif', serif;
   font-size: 0.8rem;
   color: #222;
 }
 
 p {
-  font-family: 'PT Serif', serif;
   font-size: 1.125rem;
   color: #222;
 }
 
 ol dl ul {
-  font-family: 'PT Serif', serif;
   color: #222;
 }
 
 footer {
-  font-family: 'PT Serif', serif;
   color: #222;
 }
 
